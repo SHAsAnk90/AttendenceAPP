@@ -9,7 +9,7 @@ Quick Start
 First, install the required packages using pip install requirements txt.
 Second, set your database environment variables for MONGO URI and MONGO DB.
 Third, load the sample dataset by running python sample seed py.
-Fourth, start the server by running uvicorn app main app port 8000 reload.
+Fourth, start the server by running uvicorn app.main:app --port 8000.
 
 Key Endpoints
 The health endpoint GET health checks server and database status.
