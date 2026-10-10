@@ -3,7 +3,7 @@ Employee Attendance and Analytics API
 Welcome to the Employee Attendance and Analytics API project. This project is a RESTful API built using FastAPI and MongoDB to help manage employee records, track daily attendance punch ins and punch outs, and calculate attendance analytics.
 
 Prerequisites
-To run this application, you need Python 3 10 or newer and MongoDB 6 0 or newer running on your machine.
+To run this application, you need Python 3.10 or newer and MongoDB 6.0 or newer running on your machine.
 
 Quick Start
 First, install the required packages using pip install requirements txt.
