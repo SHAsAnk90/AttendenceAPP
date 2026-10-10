@@ -1,6 +1,6 @@
 Review Report
 
-Hi, I am a fresher developer on this project. While going through the starter main py file in the app folder, I found seven bugs and fixed them. Here are the details of what went wrong, how I noticed the issues during testing, and how I fixed them.
+Hi, While going through the starter main.py file in the app folder, I found seven bugs and fixed them. Here are the details of what went wrong, how I noticed the issues during testing, and how I fixed them.
 
 First issue in health endpoint
 The health check endpoint was returning ok even when MongoDB was down. When I turned off Mongo and hit the endpoint, it still gave 200 instead of 503. I fixed this by adding a database ping inside a try block so it returns 503 if Mongo is down.
